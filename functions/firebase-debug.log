@@ -671,3 +671,123 @@ If you are renaming a function or changing its region, it is recommended that yo
 [debug] [2019-08-10T11:00:38.026Z] [runtime-status] Ephemeral server used! {}
 [debug] [2019-08-10T11:00:38.032Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-10T11:04:23.207Z] File C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T11:04:24.856Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[debug] [2019-08-10T11:04:24.856Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:04:24.859Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:04:24.861Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:04:24.861Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:04:27.914Z] File C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T11:04:29.483Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[debug] [2019-08-10T11:04:29.484Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:04:29.487Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:04:29.489Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:04:29.489Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:06:15.665Z] File C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T11:06:17.261Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[debug] [2019-08-10T11:06:17.261Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:06:17.265Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:06:17.266Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:06:17.267Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:06:19.558Z] File C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T11:06:21.053Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[debug] [2019-08-10T11:06:21.053Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:06:21.056Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:06:21.059Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:06:21.060Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:19.810Z] Accepted request POST /social-44/europe-west1/api/login --> api
+[debug] [2019-08-10T11:07:20.341Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-10T11:07:20.341Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:07:20.345Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:07:20.346Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:20.347Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:21.004Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-10T11:07:21.004Z] [runtime-status]  {"regions":["europe-west1"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-10T11:07:21.004Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-10T11:07:21.012Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\14208"}
+[debug] [2019-08-10T11:07:21.013Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\14208"}
+[debug] [2019-08-10T11:07:21.037Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-10T11:07:21.059Z] [runtime-status] Ephemeral server survived. {}
+[info] >  TypeError: data.getIdToken is not a function
+[info] >      at firebase.auth.signInWithEmailAndPassword.then.data (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js:153:19)
+[info] >      at e.g (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\@firebase\auth\dist\auth.js:26:101)
+[info] >      at kc (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\@firebase\auth\dist\auth.js:29:195)
+[info] >      at gc (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\@firebase\auth\dist\auth.js:29:85)
+[info] >      at B.k.Ub (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\@firebase\auth\dist\auth.js:28:303)
+[info] >      at Qb (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\@firebase\auth\dist\auth.js:22:586)
+[info] >      at process._tickCallback (internal/process/next_tick.js:68:7)
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-10T11:07:40.861Z] File C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T11:07:42.386Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[debug] [2019-08-10T11:07:42.387Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:07:42.391Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:07:42.392Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:42.393Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:43.918Z] Accepted request POST /social-44/europe-west1/api/login --> api
+[debug] [2019-08-10T11:07:44.486Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-10T11:07:44.486Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:07:44.491Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:07:44.492Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:44.493Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:45.123Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-10T11:07:45.123Z] [runtime-status]  {"regions":["europe-west1"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-10T11:07:45.123Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-10T11:07:45.130Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\8612"}
+[debug] [2019-08-10T11:07:45.131Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\8612"}
+[debug] [2019-08-10T11:07:45.155Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-10T11:07:45.181Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-10T11:07:56.722Z] Accepted request POST /social-44/europe-west1/api/login --> api
+[debug] [2019-08-10T11:07:57.295Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-10T11:07:57.296Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:07:57.300Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:07:57.303Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:57.304Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:07:58.019Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-10T11:07:58.019Z] [runtime-status]  {"regions":["europe-west1"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-10T11:07:58.019Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-10T11:07:58.026Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\5772"}
+[debug] [2019-08-10T11:07:58.027Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\5772"}
+[debug] [2019-08-10T11:07:58.051Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-10T11:07:58.053Z] [runtime-status] Ephemeral server survived. {}
+[info] >  ReferenceError: errros is not defined
+[info] >      at app.post (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js:147:67)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] >      at next (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\route.js:137:13)
+[info] >      at Route.dispatch (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\route.js:112:3)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] >      at C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:281:22
+[info] >      at Function.process_params (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:335:12)
+[info] >      at next (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:275:10)
+[info] >      at expressInit (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\middleware\init.js:40:5)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-08-10T11:08:14.630Z] Accepted request POST /social-44/europe-west1/api/login --> api
+[debug] [2019-08-10T11:08:15.195Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions","node_version":"10.16.2"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-10T11:08:15.196Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T11:08:15.200Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T11:08:15.202Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:08:15.202Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T11:08:15.827Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-10T11:08:15.827Z] [runtime-status]  {"regions":["europe-west1"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-10T11:08:15.827Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-10T11:08:15.834Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\12368"}
+[debug] [2019-08-10T11:08:15.835Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\joshd\\OneDrive\\All Documents\\Coding\\React\\social-4444\\functions\\12368"}
+[debug] [2019-08-10T11:08:15.863Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-10T11:08:15.865Z] [runtime-status] Ephemeral server survived. {}
+[info] >  ReferenceError: errros is not defined
+[info] >      at app.post (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\index.js:147:67)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] >      at next (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\route.js:137:13)
+[info] >      at Route.dispatch (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\route.js:112:3)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] >      at C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:281:22
+[info] >      at Function.process_params (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:335:12)
+[info] >      at next (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\index.js:275:10)
+[info] >      at expressInit (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\middleware\init.js:40:5)
+[info] >      at Layer.handle [as handle_request] (C:\Users\joshd\OneDrive\All Documents\Coding\React\social-4444\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] i  functions: Finished "api" in ~1s
