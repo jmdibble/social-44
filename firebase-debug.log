@@ -93,3 +93,27 @@
 [debug] [2019-08-10T16:15:34.845Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "api" in ~1s
 [debug] [2019-08-10T16:25:07.928Z] File C:\Users\Josh\OneDrive\All Documents\Coding\React\social-44\functions\index.js changed, reloading triggers
+[debug] [2019-08-10T16:25:09.474Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions","node_version":"10.15.3"}
+[debug] [2019-08-10T16:25:09.474Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T16:25:09.479Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T16:25:09.482Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T16:25:09.483Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T16:25:15.970Z] Accepted request POST /social-44/us-central1/api/login --> api
+[debug] [2019-08-10T16:25:16.457Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions","node_version":"10.15.3"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-10T16:25:16.458Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-10T16:25:16.463Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-08-10T16:25:16.467Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T16:25:16.468Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-08-10T16:25:17.211Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-10T16:25:17.211Z] [runtime-status]  {"regions":["europe-west1"],"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-10T16:25:17.211Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-10T16:25:17.218Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\8828"}
+[debug] [2019-08-10T16:25:17.220Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\Josh\\OneDrive\\All Documents\\Coding\\React\\social-44\\functions\\8828"}
+[debug] [2019-08-10T16:25:17.247Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-10T16:25:17.275Z] [runtime-status] Ephemeral server survived. {}
+[info] >  { [Error: The password is invalid or the user does not have a password.]
+[info] >    code: 'auth/wrong-password',
+[info] >    message:
+[info] >     'The password is invalid or the user does not have a password.' }
+[info] i  functions: Finished "api" in ~1s
