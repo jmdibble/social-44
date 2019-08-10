@@ -1,29 +1,29 @@
-const functions = require("firebase-functions");
-const admin = require("firebase-admin");
+const functions = require('firebase-functions');
+const admin = require('firebase-admin');
 
 admin.initializeApp();
 
 const config = {
-  apiKey: "AIzaSyBLBM3vjgkDzjKwJvFJsqx0rEhe7Uj2Iuk",
-  authDomain: "social-44.firebaseapp.com",
-  databaseURL: "https://social-44.firebaseio.com",
-  projectId: "social-44",
-  storageBucket: "social-44.appspot.com",
-  messagingSenderId: "770034608691",
-  appId: "1:770034608691:web:2eef1403de96fc06"
+  apiKey: 'AIzaSyBLBM3vjgkDzjKwJvFJsqx0rEhe7Uj2Iuk',
+  authDomain: 'social-44.firebaseapp.com',
+  databaseURL: 'https://social-44.firebaseio.com',
+  projectId: 'social-44',
+  storageBucket: 'social-44.appspot.com',
+  messagingSenderId: '770034608691',
+  appId: '1:770034608691:web:2eef1403de96fc06'
 };
 
-const firebase = require("firebase");
+const firebase = require('firebase');
 firebase.initializeApp(config);
 
 const db = admin.firestore();
 
-const express = require("express");
+const express = require('express');
 const app = express();
 
-app.get("/screams", (req, res) => {
-  db.collection("screams")
-    .orderBy("createdAt", "desc")
+app.get('/screams', (req, res) => {
+  db.collection('screams')
+    .orderBy('createdAt', 'desc')
     .get()
     .then(data => {
       let screams = [];
@@ -40,25 +40,25 @@ app.get("/screams", (req, res) => {
     .catch(err => console.error(err));
 });
 
-app.post("/scream", (req, res) => {
+app.post('/scream', (req, res) => {
   const newScream = {
     body: req.body.body,
     userHandle: req.body.userHandle,
     createdAt: new Date().toISOString()
   };
-  db.collection("screams")
+  db.collection('screams')
     .add(newScream)
     .then(doc => {
       res.json({ message: `Document ${doc.id} created successfully` });
     })
     .catch(err => {
-      res.status(500).json({ error: "Something went wrong" });
+      res.status(500).json({ error: 'Something went wrong' });
       console.error(err);
     });
 });
 
 const isEmpty = string => {
-  if (string.trim() === "") return true;
+  if (string.trim() === '') return true;
   else return false;
 };
 
@@ -69,7 +69,7 @@ const isEmail = email => {
 };
 
 // Signup route
-app.post("/signup", (req, res) => {
+app.post('/signup', (req, res) => {
   const newUser = {
     email: req.body.email,
     password: req.body.password,
@@ -81,15 +81,15 @@ app.post("/signup", (req, res) => {
   let errors = {};
 
   if (isEmpty(newUser.email)) {
-    errors.email = "Must not be empty";
+    errors.email = 'Must not be empty';
   } else if (!isEmail(newUser.email)) {
-    errors.email = "Must be a valid email address";
+    errors.email = 'Must be a valid email address';
   }
 
-  if (isEmpty(newUser.password)) errors.password = "Must not be empty";
+  if (isEmpty(newUser.password)) errors.password = 'Must not be empty';
   if (newUser.password !== newUser.confirmPassword)
-    errors.confirmPassword = "Passwords must match";
-  if (isEmpty(newUser.handle)) errors.handle = "Must not be empty";
+    errors.confirmPassword = 'Passwords must match';
+  if (isEmpty(newUser.handle)) errors.handle = 'Must not be empty';
 
   if (Object.keys(errors).length > 0) return res.status(400).json(errors);
 
@@ -99,7 +99,7 @@ app.post("/signup", (req, res) => {
     .get()
     .then(doc => {
       if (doc.exists) {
-        return res.status(400).json({ handle: "This handle is already taken" });
+        return res.status(400).json({ handle: 'This handle is already taken' });
       } else {
         return firebase
           .auth()
@@ -125,15 +125,15 @@ app.post("/signup", (req, res) => {
     })
     .catch(err => {
       console.error(err);
-      if (err.code === "auth/email-already-in-use") {
-        return res.status(400).json({ email: "Email is already in use" });
+      if (err.code === 'auth/email-already-in-use') {
+        return res.status(400).json({ email: 'Email is already in use' });
       } else {
         return res.status(500).json({ error: err.code });
       }
     });
 });
 
-app.post("/login", (req, res) => {
+app.post('/login', (req, res) => {
   const user = {
     email: req.body.email,
     password: req.body.password
@@ -141,8 +141,8 @@ app.post("/login", (req, res) => {
 
   let errors = {};
 
-  if (isEmpty(user.email)) errors.email = "Must not be empty";
-  if (isEmpty(user.password)) errors.password = "Must not be empty";
+  if (isEmpty(user.email)) errors.email = 'Must not be empty';
+  if (isEmpty(user.password)) errors.password = 'Must not be empty';
 
   if (Object.keys(errors).length > 0) return res.status(400).json(errors);
 
@@ -157,8 +157,12 @@ app.post("/login", (req, res) => {
     })
     .catch(err => {
       console.error(err);
-      return res.status(500).json({ error: err.code });
+      if (err.code === 'auth/wrong-password') {
+        return res
+          .status(403)
+          .json({ general: 'Wrong credentials, please try again' });
+      } else return res.status(500).json({ error: err.code });
     });
 });
 
-exports.api = functions.region("europe-west1").https.onRequest(app);
+exports.api = functions.region('europe-west1').https.onRequest(app);
