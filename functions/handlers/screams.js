@@ -19,6 +19,7 @@ exports.getAllScreams = (req, res) => {
     .catch(err => console.error(err));
 };
 
+// Post a scream
 exports.postOneScream = (req, res) => {
   const newScream = {
     body: req.body.body,
@@ -153,6 +154,7 @@ exports.likeScream = (req, res) => {
     });
 };
 
+// Unlike scream
 exports.unlikeScream = (req, res) => {
   const likeDocument = db
     .collection('likes')
