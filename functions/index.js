@@ -18,7 +18,9 @@ const {
   login,
   uploadImage,
   addUserDetails,
-  getAuthenticatedUser
+  getAuthenticatedUser,
+  getUserDetails,
+  markNotificationsRead
 } = require('./handlers/users');
 
 // screams.js
@@ -48,6 +50,10 @@ app.post('/user/image', FBAuth, uploadImage);
 app.post('/user', FBAuth, addUserDetails);
 // Like route
 app.get('/user', FBAuth, getAuthenticatedUser);
+// Get user details
+app.get('/user/:handle', getUserDetails);
+// Mark notifications read
+app.post('/notifications', FBAuth, markNotificationsRead);
 
 exports.api = functions.region('europe-west1').https.onRequest(app);
 
